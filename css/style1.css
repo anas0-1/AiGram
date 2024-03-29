@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+/* body */
+  body {
+    font-family: "Open Sans", Arial, sans-serif;
+    background: #000000;
+    flex-direction: row;
+    padding-right: 145px;
+    width: 1482px;
+    box-sizing: border-box;
+  }
+
+/* main */
+   main {
+    margin-left: 560px;
+    margin-top: -160px;
+
+  }
+/* section */
+   section{
+    margin-left: 756px;
+    display: grid;
+    margin-top: -975px;
+  }
+
+/* aside */
+    /* sidebar */
+   .sideBar {
+     font-family: "Open Sans", Arial, sans-serif;
+     background: #000000;
+     margin-right: 280px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-left: 10px;
+     padding-right:25px;
+     position: fixed;
+     top: 0;
+     left: 0;
+     height: 100%; 
+     overflow-y: auto;
+}
+.sidebar_titles{
+    margin-bottom: 200px;
+    
+}
+h1{
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+    font-style: bold;
+    margin-top: 30px;
+    MARGIN-LEFT: -50px;
+    color: #ffff;
+}
+#side_ul{
+    font-family: Arial, sans-serif;
+    padding-top:40px;
+    padding-right:30px;
+    
+}
+#side_ul li{
+    font-family:  Arial, sans-serif;
+    font-size: 15px;
+    list-style: none;
+    margin: 20px;
+    color: #dedede;
+    cursor: pointer;
+    padding: 5px;
+}
+#side_ul li p{
+    margin-top: -24px;
+    margin-left: 55PX;
+    
+}
+  /* sidebar "miniprofile" */
+#mp{
+    font-weight: bold;
+    color: #ffffff;
+}
+.sideBar ul :hover {
+    background-color: #171717;  
+    border: 1px transparent;
+    border-radius: 3%;
+    box-shadow: 0 1px #171717;
+}
+
+ul {
+    font-family:  Arial, sans-serif;
+    padding-top:80px;
+    padding-right:30px;
+}
+ul li{
+    font-family:  Arial, sans-serif;
+    font-size: 15px;
+    list-style: none;
+    margin: 20px;
+    color: #ffff;
+    cursor: pointer;
+}
+#mini_Pr{
+    border: 2px  ;
+    padding: 2px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 10px;
+    border: 2px solid #fff;
+}#mini_ul{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    list-style: none;
+    margin-top: 1px;
+    color: #ffff;
+    cursor: pointer;
+    margin-right: 48px;
+}
+    /* vertical line */
+.vl {
+    border-left: 3px solid #1C1B1F; 
+    height: 800px;
+    margin-left: 300px;
+    position: fixed;
+}
+/* header */
+   header {
+
+    color: #fff;
+    padding: 30px;
+    display: inline;
+  
+}
+  /* profile  */
+  .col1{
+    margin-top: -109px;
+    margin-left: 201px;
+}
+  #profile_pic{
+    border: 2px;
+    padding: 2px;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin-top: 178px;
+}
+ 
+  #th1{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 13px;
+    list-style: none;
+    margin: 20px;
+    color: #ffff;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+  .btn1{
+    margin-left: 2%;
+    padding: 7%;
+    width: 90px;
+    cursor: pointer;
+    display: inline-block;
+    background-color:#5a5a5a;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 1px #000000;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+  .btn2{
+    margin-left: 10%;
+    padding: 7%;
+    width: 90px;
+    cursor: pointer;
+    background-color:#5a5a5a;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 1px #000000;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+  .btn1:hover {background-color: #828283}
+  .btn2:hover {background-color: #828283}
+
+  .profile-settings {
+    font-size: 17px;
+    margin-left: 300px;
+    color: #ffffff;
+
+}
+
+  .profile-stats {
+    margin-top: -85px;
+}
+
+  .profile-stats li {
+    font-family: "Open Sans", Arial, sans-serif;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 0.5;
+    margin-right: 4px;
+    margin-left: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+  #bio{
+    margin-left: 25px;
+}
+  #nv{
+    font-family: "Open Sans", Arial, sans-serif;
+    color: white;
+    margin-left: -167px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+  .hl {
+    border-top: 3px solid #1C1B1F; 
+    padding-top: 600px;
+    margin-top: 60px;
+    width: 800px;
+    margin-left: -200px;
+}
+/* section 1 */
+
+    /* New */
+  #svgPa{
+    color: #bdbdbd;
+    margin-left: 15px;
+    cursor: pointer;
+}
+  svg{
+    color: #cdcccc;
+    cursor: pointer;
+    width: 50px;
+}
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -900px;
+    margin-top: 50PX;
+    
+}
+  .new {
+    background-color: rgb(29, 28, 28);
+    border: 1px solid rgb(29, 28, 28);
+    padding: 2px;
+    border-radius: 55%;
+    box-shadow: inset 0px 0px 0px 4px black;
+    margin-left: 18px;
+    margin-bottom: 12px;
+    height: 70px;
+    width: 70px;
+}
+  
+  .new svg {
+    top: 224px;
+    padding-left: 72px;
+    padding-top: 71px;
+    transform: translate(-50%, -50%);
+    color: #bdbdbd;
+}
+  .tags ul li {
+    font-size: 16px;
+}
+  #posts{
+    border-top: 1px solid #ffffff;
+    padding-top: 5px;
+}
+  .tags ul {
+    font-family: "Open Sans", Arial, sans-serif;
+      display: inline-flex;
+      font-size: 15px;
+      line-height: 0.6;
+      margin-left: -600px;
+      margin-top: 257px;
+      cursor: pointer;
+}
+  
+   #po{
+    margin-top: -22px;
+    margin-left: 45px;
+    margin-right: 30px;
+    padding-top: 6px;
+    color: #bdbdbd;
+}
+   #po1{
+    margin-top: -23px;
+    margin-left: 45px;
+    margin-right: 30px;
+    padding-top: 6px;
+}
+   #svg1{
+    color: white;
+}
+   #svg2{
+    margin-left: 3px;
+    margin-right: 30px;
+    padding-top: 6px;
+    color: #cdcccc;
+}
+/* section 2 */
+  /* gallery  */
+   .grid-container {
+    margin-top: 25px;
+    margin-left: -15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    background-color: #000;
+    padding: 5px;
+    width: 400px; 
+}
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+    width: 270px; 
+    height: 270px;
+}
+  
+  .grid-container img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+/* footer */
+  footer{
+    margin-bottom: 20px;
+    margin-left: -639px;
+    margin-top: 57PX;
+}
+  footer p{
+
+    margin-left: 550px;
+    width: 68vw;
+    color: gray;
+    margin-left: 550px;
+  
+}
+  footer ul{
+    display: inline-flex;
+    list-style: none;
+    color: gray;
+    margin-left: 624px;
+    width: 47vw;
+    margin-top: -83px;
+}
+  footer li{
+  color: #828283;
+  margin-left: 150px;
+}
+  
+ 
